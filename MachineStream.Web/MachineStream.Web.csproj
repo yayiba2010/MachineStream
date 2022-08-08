@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataCollection.DAO.Data\MachineStream.Repository.csproj" />
+    <ProjectReference Include="..\DataCollection.Entity\MachineStream.Entity.csproj" />
+    <ProjectReference Include="..\MachineStream.IRepository\MachineStream.IRepository.csproj" />
+    <ProjectReference Include="..\MachineStream.IService\MachineStream.IService.csproj" />
+    <ProjectReference Include="..\MachineStream.Service\MachineStream.Service.csproj" />
+  </ItemGroup>
+
+</Project>
