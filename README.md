@@ -3,8 +3,8 @@ The Project includes two functions: collecting device status data from websocket
 
 ## Functional implementation
 
-Use hostservice to collect data in the background
+1.Use hostservice to collect data in the background
 
-IOC framework uses sqlsugar
+2.IOC framework uses sqlsugar
 
-Use webapi to provide data interface
+3.Use webapi to provide data interface
